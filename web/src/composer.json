@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Hestia\\": "app/"
+        }
+    },
+    "require": {
+        "symfony/console": "^7.4.1",
+        "composer": "*",
+        "symfony/process": "^7.4.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0.1"
+    }
+}
